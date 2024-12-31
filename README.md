@@ -10,3 +10,5 @@ CPP Multithreading: Codes for common mutithreading problems implemented in C++
   The Cigarette Smokers: Uses semaphores for the agent and each smoker. A table mutex guards shared variables. The agent randomly picks two ingredients; the smoker with the remaining ingredient proceeds.
 
   Santa Claus: Uses multiple semaphores (santaSem, reindeerSem, elfSem) to signal Santa when nine reindeer or three elves gather. Reindeer and elves increment counters protected by their respective mutexes and wait for Santa’s assistance. 
+
+  FakeSO: A local Web program for a mock stack overflow
