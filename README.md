@@ -11,4 +11,4 @@ CPP Multithreading: Codes for common mutithreading problems implemented in C++
 
   Santa Claus: Uses multiple semaphores (santaSem, reindeerSem, elfSem) to signal Santa when nine reindeer or three elves gather. Reindeer and elves increment counters protected by their respective mutexes and wait for Santa’s assistance. 
 
-  FakeSO: A local Web program for a mock stack overflow
+  FakeSO: A local Web program made with MERN for a mock stack overflow
