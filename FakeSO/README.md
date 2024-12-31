@@ -1,6 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/9NDadFFr)
-Add design docs in *images/*
-
 ## Instructions to setup and run project
 
 Please use chrome browser to run the program.
@@ -28,11 +25,3 @@ cd into server and run:
     npm i
     npm start
   ```
-
-## Team Member 1 Contribution
-
-Chanju Lee: Backend, Merge frontend backend
-
-## Team Member 2 Contribution
-
-Wooktae Chang: Front end, UML Diagram
