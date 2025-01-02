@@ -1,8 +1,12 @@
 # Portfolio Repository
-
 This repository showcases various projects that demonstrate my skills in software development and problem-solving. Below is an overview of the key projects included:
 
-## Java Proxy
+## Table of Contents
+1. [Network Development](#Network Development)
+
+## Network Development
+**Code for implemting client-server connections, code in Java**:
+
 **HTTP Proxy Server**:  
 - Listens for client connections and forwards HTTP GET requests to web servers (e.g., `www.google.com`).  
 - Fetches the server's responses and sends the data back to the client.
