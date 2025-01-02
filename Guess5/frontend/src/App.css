@@ -1,0 +1,355 @@
+/* App.css or your preferred stylesheet */
+* {
+  margin: 0;
+}
+
+/*Home Screen*/
+.HomeTitle {
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+
+.Welcome {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.HomeScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* GameRules.css */
+.game-rules {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.game-rules-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.game-rules-main {
+  color: #0066cc;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.game-rules-main::before {
+  content: "\2022"; /* Bullet point */
+  color: #333;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.game-rules-sub {
+  color: #000;
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+
+.game-rules-sub::before {
+  content: "-";
+  margin-right: 5px;
+}
+
+.FindGame,
+.ViewStats {
+  background-color: #4caf50;
+  color: white;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.FindGame {
+  padding: 25px 30px;
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.ViewStats {
+  padding: 20px 25px;
+  font-size: 1.3rem;
+}
+
+.FindGame:hover,
+.ViewStats:hover {
+  opacity: 0.8;
+}
+
+.MatchingModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.ModalContent {
+  margin-top: 13vh;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: auto;
+  max-width: 400px;
+}
+
+.CloseButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.CloseButton:hover {
+  color: #f44336;
+}
+
+.waitingModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 1;
+}
+
+.waitingModalContent {
+  position: relative;
+  margin-top: 5%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.closeWaitButton {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 0px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: transparent;
+  color: grey;
+  border: none;
+}
+
+.closeWaitButton:hover {
+  color: black;
+  background-color: transparent;
+}
+
+.letter-animation {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.letter {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.countdownModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10; /* Ensure it appears above other content */
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.forfeitBtn {
+  padding: 20px;
+}
+
+/* Guess Form */
+.guessForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.guessForm-header {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.guessForm-input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.guess-word-small {
+  font-size: 23px;
+}
+.num-matching {
+  font-size: 23px;
+  color: green;
+}
+
+.greenButton {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.greenButton:hover {
+  background-color: darkgreen;
+}
+
+/* GuessBoard */
+/* GuessBoard.css */
+.GuessBoard {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
+  margin-left: 13.5%;
+  text-align: center;
+  width: 75%;
+}
+
+.secretWordAndForfeitContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.forfeitBtn {
+  margin-left: auto;
+}
+
+.secretWordDisplay {
+  flex-grow: 1;
+  margin: 0 auto;
+  margin-right: 5%;
+}
+
+.GuessBoard-Header {
+  text-decoration: underline;
+  width: 100%;
+  font-size: 32px;
+}
+
+.GuessBoard-section {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.GuessBoard-List {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.GuessBoard-List li {
+  display: flex;
+}
+
+.GuessBoard-List p {
+  font-weight: 700;
+  color: #555;
+  margin-right: 5px;
+}
+
+.button-disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  padding: 10px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.button-disabled:hover {
+  background-color: #ccc;
+}
+
+@media (max-width: 600px) {
+  .GuessBoard {
+    flex-direction: column;
+  }
+
+  .GuessBoard-section {
+    width: 100%;
+  }
+}
+
+/* */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
