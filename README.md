@@ -1,16 +1,56 @@
-Java Proxy: HTTP proxy server. Listens for client connections, forwards HTTP GET requests to web servers (e.g., www.google.com), fetches the server's responses, and sends the data back to the client
+# Portfolio Repository
 
-CPP Multithreading: Codes for common mutithreading problems implemented in C++
-  Dining Philosophers: Uses a single semaphore (footman) limiting the number of philosophers who can attempt to pick up chopsticks simultaneously, avoiding circular wait. 
+This repository showcases various projects that demonstrate my skills in software development and problem-solving. Below is an overview of the key projects included:
 
-  Producer–Consumer: Uses three semaphores (emptyCount,fullCount,mtx). emptyCount tracks free slots, fullCount tracks filled slots, mtx protects the queue.
+## Java Proxy
+**HTTP Proxy Server**:  
+- Listens for client connections and forwards HTTP GET requests to web servers (e.g., `www.google.com`).  
+- Fetches the server's responses and sends the data back to the client.
 
-  Readers–Writers: Implements a queue semaphore q controlling order, giving writers priority when they arrive, and standard logic to lock/unlock the shared resource.
+---
 
-  The Cigarette Smokers: Uses semaphores for the agent and each smoker. A table mutex guards shared variables. The agent randomly picks two ingredients; the smoker with the remaining ingredient proceeds.
+## C++ Multithreading
+**Codes for common multithreading problems implemented in C++:**  
 
-  Santa Claus: Uses multiple semaphores (santaSem, reindeerSem, elfSem) to signal Santa when nine reindeer or three elves gather. Reindeer and elves increment counters protected by their respective mutexes and wait for Santa’s assistance. 
+### 1. Dining Philosophers
+- Uses a single semaphore (`footman`) to limit the number of philosophers who can attempt to pick up chopsticks simultaneously.  
+- Avoids circular wait by ensuring no deadlock occurs.  
 
-FakeSO: A local Web program made with MERN for a mock stack overflow
+### 2. Producer–Consumer
+- Utilizes three semaphores:  
+  - `emptyCount`: Tracks the number of free slots in the buffer.  
+  - `fullCount`: Tracks the number of filled slots in the buffer.  
+  - `mtx`: Protects the queue from simultaneous access.  
 
-Guess5: Guess5 game implemented for both front and backend with MERN stack
+### 3. Readers–Writers
+- Implements a `queue` semaphore (`q`) to control the order of access.  
+- Prioritizes writers when they arrive and locks/unlocks the shared resource following standard logic.  
+
+### 4. The Cigarette Smokers
+- Uses semaphores for the agent and each smoker.  
+- A `table` mutex guards shared variables.  
+- The agent randomly selects two ingredients, and the smoker with the remaining ingredient proceeds.  
+
+### 5. Santa Claus
+- Employs multiple semaphores:  
+  - `santaSem`: Signals Santa when help is needed.  
+  - `reindeerSem` and `elfSem`: Track reindeer and elves waiting for assistance.  
+- Reindeer and elves increment counters protected by mutexes and wait for Santa’s intervention.  
+
+---
+
+## FakeSO
+**Mock Stack Overflow**:  
+- A local web program built using the MERN stack (MongoDB, Express.js, React.js, Node.js).  
+- Mimics the functionality of Stack Overflow for educational purposes.  
+
+---
+
+## Guess5
+**Word Guessing Game**:  
+- Developed using the MERN stack for both front-end and back-end implementation.  
+- Features a user-friendly interface and interactive gameplay.  
+
+---
+
+If you encounter any issues or need assistance, feel free to reach out!
