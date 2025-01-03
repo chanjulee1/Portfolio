@@ -2,7 +2,6 @@
 This repository showcases various projects that demonstrate my skills in software development and problem-solving. Below is an overview of the key projects included:
 
 ## Table of Contents
-## Table of Contents
 - [Network Development](#network-development)
 - [C++ Multithreading](#c-multithreading)
   - [Dining Philosophers](#1-dining-philosophers)
@@ -10,8 +9,9 @@ This repository showcases various projects that demonstrate my skills in softwar
   - [Readers–Writers](#3-readerswriters)
   - [The Cigarette Smokers](#4-the-cigarette-smokers)
   - [Santa Claus](#5-santa-claus)
-- [FakeSO](#fakeso)
-- [Guess5](#guess5)
+- [Web Development](#Web-development)
+  - [FakeSO](#fakeso)
+  - [Guess5](#guess5)
 
 ## Network Development
 **Code for implemting client-server connections, code in Java**:
