@@ -13,7 +13,7 @@ This repository showcases various projects that demonstrate my skills in softwar
   - [FakeSO](#fakeso)
   - [Guess5](#guess5)
 
-## Network Development
+## Network
 **Code for implemting client-server connections, code in Java**:
 
 **HTTP Proxy Server**:  
