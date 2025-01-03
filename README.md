@@ -2,7 +2,7 @@
 This repository showcases various projects that demonstrate my skills in software development and problem-solving. Below is an overview of the key projects included:
 
 ## Table of Contents
-- [Network Development](#network-development)
+- [Network](#network)
 - [C++ Multithreading](#c-multithreading)
   - [Dining Philosophers](#1-dining-philosophers)
   - [Producer–Consumer](#2-producerconsumer)
