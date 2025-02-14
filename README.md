@@ -12,6 +12,7 @@ This repository showcases various projects that demonstrate my skills in softwar
 - [Web Development](#Web-development)
   - [FakeSO](#fakeso)
   - [Guess5](#guess5)
+- [Machine Learning](#Machine-Learning)
 
 ## Network
 **Code for implemting client-server connections, code in Java**:
@@ -65,5 +66,7 @@ This repository showcases various projects that demonstrate my skills in softwar
 - Features a user-friendly interface and interactive gameplay.  
 
 ---
+
+## Machine Learning
 
 If you encounter any issues or need assistance, feel free to reach out!
