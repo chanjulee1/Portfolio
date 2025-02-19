@@ -55,7 +55,7 @@ This repository showcases various projects that demonstrate my skills in softwar
 ---
 
 ## Web Development
-Code for websites made using MERN stack
+**Code for websites made using MERN stack**
 
 ### FakeSO
 **Mock Stack Overflow**:  
