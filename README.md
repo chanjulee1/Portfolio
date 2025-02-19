@@ -13,6 +13,7 @@ This repository showcases various projects that demonstrate my skills in softwar
   - [FakeSO](#fakeso)
   - [Guess5](#guess5)
 - [Machine Learning](#Machine-Learning)
+  - [CNN convolution](#CNN)
 
 ## Network
 **Code for implemting client-server connections, code in Java**:
@@ -68,5 +69,8 @@ This repository showcases various projects that demonstrate my skills in softwar
 ---
 
 ## Machine Learning
+
+## 2. CNN Convolution
+- A simple convolutional neural network (CNN) implementation in NumPy with custom convolution and pooling functions, followed by a forward pass applying three convolutional layers, ReLU activations, and pooling operations. The script processes an input image and saves filtered outputs.
 
 If you encounter any issues or need assistance, feel free to reach out!
