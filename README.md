@@ -9,7 +9,7 @@ This repository showcases various projects that demonstrate my skills in softwar
   - [Readers–Writers](#3-readerswriters)
   - [The Cigarette Smokers](#4-the-cigarette-smokers)
   - [Santa Claus](#5-santa-claus)
-- [Web Development](#Web-development)
+- [Web Development](#Web-Development)
   - [FakeSO](#fakeso)
   - [Guess5](#guess5)
 - [Machine Learning](#Machine-Learning)
@@ -54,14 +54,15 @@ This repository showcases various projects that demonstrate my skills in softwar
 
 ---
 
-## FakeSO
+## Web Development
+Code for websites made using MERN stack
+
+### FakeSO
 **Mock Stack Overflow**:  
 - A local web program built using the MERN stack (MongoDB, Express.js, React.js, Node.js).  
 - Mimics the functionality of Stack Overflow for educational purposes.  
 
----
-
-## Guess5
+### Guess5
 **Word Guessing Game**:  
 - Developed using the MERN stack for both front-end and back-end implementation.  
 - Features a user-friendly interface and interactive gameplay.  
