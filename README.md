@@ -14,6 +14,7 @@ This repository showcases various projects that demonstrate my skills in softwar
   - [Guess5](#guess5)
 - [Machine Learning](#Machine-Learning)
   - [CNN convolution](#CNN-Convolution)
+  - [Reinforcement Learning](#Reinforcement-Learning)
 
 ## Network
 **Code for implemting client-server connections, code in Java**:
@@ -70,6 +71,9 @@ This repository showcases various projects that demonstrate my skills in softwar
 ---
 
 ## Machine Learning
+
+### 1. Reinforcement Learning
+- Reinforcement learning environment with a small grid-based Markov Decision Process (MDP), implementing value iteration, Q-learning, and SARSA for policy evaluation. It initializes transition probabilities and rewards, then runs these algorithms to compute optimal policies and prints results for comparison.
 
 ### 2. CNN Convolution
 - A simple convolutional neural network (CNN) implementation in NumPy with custom convolution and pooling functions, followed by a forward pass applying three convolutional layers, ReLU activations, and pooling operations. The script processes an input image and saves filtered outputs.
