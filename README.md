@@ -15,6 +15,7 @@ This repository showcases various projects that demonstrate my skills in softwar
 - [Machine Learning](#Machine-Learning)
   - [CNN convolution](#CNN-Convolution)
   - [Reinforcement Learning](#Reinforcement-Learning)
+  - [Autoencoder](#Autoencoder)
 
 ## Network
 **Code for implemting client-server connections, code in Java**:
@@ -77,5 +78,8 @@ This repository showcases various projects that demonstrate my skills in softwar
 
 ### 2. CNN Convolution
 - A simple convolutional neural network (CNN) implementation in NumPy with custom convolution and pooling functions, followed by a forward pass applying three convolutional layers, ReLU activations, and pooling operations. The script processes an input image and saves filtered outputs.
+
+### 3. Autoencoder
+- This script trains an Autoencoder on the MNIST dataset using different batch sizes to analyze their impact on training loss. Training loss is tracked and plotted for different batch sizes.
 
 If you encounter any issues or need assistance, feel free to reach out!
