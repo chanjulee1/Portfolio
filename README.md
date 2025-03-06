@@ -13,6 +13,7 @@ This repository showcases various projects that demonstrate my skills in softwar
 - [Web Development](#Web-Development)
   - [FakeSO](#fakeso)
   - [Guess5](#guess5)
+  - [VitalSync](#VitalSync)
 - [Machine Learning](#Machine-Learning)
   - [CNN convolution](#CNN-Convolution)
   - [Reinforcement Learning](#Reinforcement-Learning)
