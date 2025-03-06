@@ -85,6 +85,7 @@ This repository showcases various projects that demonstrate my skills in softwar
 - Features a user-friendly interface and interactive gameplay.  
 
 ### VitalSync
+[VitalSync](https://github.com/chanjulee1/Portfolio/tree/main/Web%20development/VitalSync)
 **Deployed Website**:
 - A deployed website managing a hospital patient's care routines. 
 
