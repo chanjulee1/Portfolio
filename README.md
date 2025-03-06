@@ -22,10 +22,10 @@ This repository showcases various projects that demonstrate my skills in softwar
 ## C Programming
 **Various excercies in C**
 
-### 1.Arithmetic
+### 1.Arithmetic(https://github.com/chanjulee1/Portfolio/tree/main/C%20programming/Arithmatic)
 - Various artimetic operations performed in C
 
-### 2. Bit operations
+### 2. Bit operations(https://github.com/chanjulee1/Portfolio/tree/main/C%20programming/Bits)
 - hw3_matmul.c: Implements matrix multiplication for two predefined matrices. It defines functions for matrix multiplication and printing the result.
 - hw3_struct_union_func.c: Defines a structure for a spiking neuron network (SNN) using a union to store different data types. It includes functions to modify the neuron’s name, number, and common data.
 - hw3_bits.c: Performs bitwise operations on an integer, including setting, clearing, and toggling specific bits, and prints the binary representation of the modified values.
@@ -85,7 +85,6 @@ This repository showcases various projects that demonstrate my skills in softwar
 - Features a user-friendly interface and interactive gameplay.  
 
 ### [VitalSync](https://github.com/chanjulee1/Portfolio/tree/main/Web%20development/VitalSync)
-[VitalSync](https://github.com/chanjulee1/Portfolio/tree/main/Web%20development/VitalSync)
 **Deployed Website**:
 - A deployed website managing a hospital patient's care routines. 
 
