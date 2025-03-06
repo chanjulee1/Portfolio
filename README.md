@@ -18,6 +18,11 @@ This repository showcases various projects that demonstrate my skills in softwar
   - [Reinforcement Learning](#Reinforcement-Learning)
   - [Autoencoder](#Autoencoder)
 
+## C Programming
+**Various excercies in C**
+
+
+
 ## Network
 **Code for implemting client-server connections, code in Java**:
 
