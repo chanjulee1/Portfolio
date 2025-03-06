@@ -21,7 +21,15 @@ This repository showcases various projects that demonstrate my skills in softwar
 ## C Programming
 **Various excercies in C**
 
+### 1.Arithmetic
+- Various artimetic operations performed in C
 
+### 2. Bit operations
+- hw3_matmul.c: Implements matrix multiplication for two predefined matrices. It defines functions for matrix multiplication and printing the result.
+- hw3_struct_union_func.c: Defines a structure for a spiking neuron network (SNN) using a union to store different data types. It includes functions to modify the neuron’s name, number, and common data.
+- hw3_bits.c: Performs bitwise operations on an integer, including setting, clearing, and toggling specific bits, and prints the binary representation of the modified values.
+
+--- 
 
 ## Network
 **Code for implemting client-server connections, code in Java**:
