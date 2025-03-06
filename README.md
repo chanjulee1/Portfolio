@@ -84,6 +84,10 @@ This repository showcases various projects that demonstrate my skills in softwar
 - Developed using the MERN stack for both front-end and back-end implementation.  
 - Features a user-friendly interface and interactive gameplay.  
 
+### VitalSync
+**Deployed Website**:
+- A deployed website managing a hospital patient's care routines. 
+
 ---
 
 ## Machine Learning
