@@ -3,7 +3,7 @@ This repository showcases various projects that demonstrate my skills in softwar
 
 ## Table of Contents
 - [C Programming](#C-Programming)
-  - [Shell](#shell)
+  - [Shell](#4-shell)
 - [Network](#network)
 - [C++ Multithreading](#c-multithreading)
   - [Dining Philosophers](#1-dining-philosophers)
