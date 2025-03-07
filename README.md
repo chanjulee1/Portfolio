@@ -3,6 +3,7 @@ This repository showcases various projects that demonstrate my skills in softwar
 
 ## Table of Contents
 - [C Programming](#C-Programming)
+  - [Shell](#Shell)
 - [Network](#network)
 - [C++ Multithreading](#c-multithreading)
   - [Dining Philosophers](#1-dining-philosophers)
@@ -29,6 +30,9 @@ This repository showcases various projects that demonstrate my skills in softwar
 - hw3_matmul.c: Implements matrix multiplication for two predefined matrices. It defines functions for matrix multiplication and printing the result.
 - hw3_struct_union_func.c: Defines a structure for a spiking neuron network (SNN) using a union to store different data types. It includes functions to modify the neuron’s name, number, and common data.
 - hw3_bits.c: Performs bitwise operations on an integer, including setting, clearing, and toggling specific bits, and prints the binary representation of the modified values.
+
+### 4. Shell
+- Implements a simple shell that reads user commands, parses them, and executes them using fork() and execvp(), supporting input/output redirection (<, >) and piping (|).
 
 --- 
 
