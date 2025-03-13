@@ -11,6 +11,7 @@ This repository showcases various projects that demonstrate my skills in softwar
   - [Readers–Writers](#3-readerswriters)
   - [The Cigarette Smokers](#4-the-cigarette-smokers)
   - [Santa Claus](#5-santa-claus)
+- [Data Science](#Data-Science)
 - [Web Development](#Web-Development)
   - [FakeSO](#fakeso)
   - [Guess5](#guess5)
