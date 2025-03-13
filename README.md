@@ -75,6 +75,10 @@ This repository showcases various projects that demonstrate my skills in softwar
 
 ---
 
+## Data Science
+
+---
+
 ## Web Development
 **Code for websites made using MERN stack**
 
