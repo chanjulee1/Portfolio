@@ -12,7 +12,7 @@ This repository showcases various projects that demonstrate my skills in softwar
   - [The Cigarette Smokers](#4-the-cigarette-smokers)
   - [Santa Claus](#5-santa-claus)
 - [Data Science](#Data-Science)
-  - [NYC Airbnb](#NYC-Airbnb)
+  - [NYC Airbnb](#1-NYC-Airbnb)
 - [Web Development](#Web-Development)
   - [FakeSO](#fakeso)
   - [Guess5](#guess5)
