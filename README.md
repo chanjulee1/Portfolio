@@ -33,11 +33,15 @@ This repository showcases various projects that demonstrate my skills in softwar
 - hw3_struct_union_func.c: Defines a structure for a spiking neuron network (SNN) using a union to store different data types. It includes functions to modify the neuron’s name, number, and common data.
 - hw3_bits.c: Performs bitwise operations on an integer, including setting, clearing, and toggling specific bits, and prints the binary representation of the modified values.
 
+### 3. Threads(Sleeping Barber)
+- This program simulates a barbershop with one barber and multiple customers using threads. Customers either wait for a haircut or leave if all chairs are occupied. The barber serves waiting customers and closes the shop after all have been handled.
+
 ### 4. Shell
 - Implements a simple shell that reads user commands, parses them, and executes them using fork() and execvp(), supporting input/output redirection (<, >) and piping (|).
 
-### 3. Threads(Sleeping Barber)
-- This program simulates a barbershop with one barber and multiple customers using threads. Customers either wait for a haircut or leave if all chairs are occupied. The barber serves waiting customers and closes the shop after all have been handled.
+### 5. TCP
+- These files implement a simple client-server echo application using TCP sockets in C. The server.c file handles incoming client connections and echoes messages, while client.c connects to the server and exchanges messages based on user input. The util.c and util.h files provide utility functions for safe I/O operations and error handling used by both the client and server.
+
 
 --- 
 
