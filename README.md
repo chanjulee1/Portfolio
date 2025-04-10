@@ -36,6 +36,9 @@ This repository showcases various projects that demonstrate my skills in softwar
 ### 4. Shell
 - Implements a simple shell that reads user commands, parses them, and executes them using fork() and execvp(), supporting input/output redirection (<, >) and piping (|).
 
+### 3. Threads(Sleeping Barber)
+- This program simulates a barbershop with one barber and multiple customers using threads. Customers either wait for a haircut or leave if all chairs are occupied. The barber serves waiting customers and closes the shop after all have been handled.
+
 --- 
 
 ## Network
