@@ -39,6 +39,9 @@ This repository showcases various projects that demonstrate my skills in softwar
 ### 4. Shell
 - Implements a simple shell that reads user commands, parses them, and executes them using fork() and execvp(), supporting input/output redirection (<, >) and piping (|).
 
+### 5. TCP
+- These files implement a simple client-server echo application using TCP sockets in C. The server.c file handles incoming client connections and echoes messages, while client.c connects to the server and exchanges messages based on user input. The util.c and util.h files provide utility functions for safe I/O operations and error handling used by both the client and server.
+
 
 --- 
 
