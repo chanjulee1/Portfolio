@@ -52,6 +52,13 @@ This repository showcases various projects that demonstrate my skills in softwar
 - Listens for client connections and forwards HTTP GET requests to web servers (e.g., `www.google.com`).  
 - Fetches the server's responses and sends the data back to the client.
 
+**UDP ping-pong**:
+This is a Java-based UDP ping-pong system:
+ - UDPServer.java implements a server that listens on a port, receives ping messages, and echoes them back. You added code to parse the port from arguments, display pings with a counter, and send replies.
+ - Message.java defines a simple data structure holding an IP address, port, and message content.
+ - PingClient.java defines a reusable client capable of sending and receiving ping messages using UDP.
+ - UDPClient.java extends PingClient to send timed pings, measure round-trip times (RTT), handle timeouts, and print stats.
+
 ---
 
 ## C++ Multithreading
