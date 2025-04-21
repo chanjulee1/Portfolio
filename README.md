@@ -2,26 +2,33 @@
 This repository showcases various projects that demonstrate my skills in software development and problem-solving. Below is an overview of the key projects included:
 
 ## Table of Contents
-- [C Programming](#C-Programming)
+- [C Programming](#c-programming)
+  - [Arithmetic](#1-arithmetic)
+  - [Bit operations](#2-bit-operations)
+  - [Threads (Sleeping Barber)](#3-threadssleeping-barber)
   - [Shell](#4-shell)
+  - [TCP](#5-tcp)
 - [Network](#network)
+  - [HTTP Proxy Server](#http-proxy-server)
+  - [UDP ping-pong](#udp-ping-pong)
 - [C++ Multithreading](#c-multithreading)
   - [Dining Philosophers](#1-dining-philosophers)
   - [Producer–Consumer](#2-producerconsumer)
   - [Readers–Writers](#3-readerswriters)
   - [The Cigarette Smokers](#4-the-cigarette-smokers)
   - [Santa Claus](#5-santa-claus)
-- [Data Science](#Data-Science)
-  - [NYC Airbnb](#1-NYC-Airbnb)
+- [Data Science](#data-science)
+  - [NYC Airbnb](#1-nyc-airbnb)
   - [Titanic](#2-titanic)
-- [Web Development](#Web-Development)
+- [Web Development](#web-development)
   - [FakeSO](#fakeso)
   - [Guess5](#guess5)
-  - [VitalSync](#VitalSync)
-- [Machine Learning](#Machine-Learning)
-  - [CNN convolution](#CNN-Convolution)
-  - [Reinforcement Learning](#Reinforcement-Learning)
-  - [Autoencoder](#Autoencoder)
+  - [VitalSync](#vitalsync)
+- [Machine Learning](#machine-learning)
+  - [Reinforcement Learning](#1-reinforcement-learning)
+  - [CNN Convolution](#2-cnn-convolution)
+  - [Autoencoder](#3-autoencoder)
+
 
 ## C Programming
 **Various excercies in C**
