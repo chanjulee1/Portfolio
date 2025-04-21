@@ -13,6 +13,7 @@ This repository showcases various projects that demonstrate my skills in softwar
   - [Santa Claus](#5-santa-claus)
 - [Data Science](#Data-Science)
   - [NYC Airbnb](#1-NYC-Airbnb)
+  - [Titanic](#2-titanic)
 - [Web Development](#Web-Development)
   - [FakeSO](#fakeso)
   - [Guess5](#guess5)
@@ -97,6 +98,9 @@ This is a Java-based UDP ping-pong system:
 
 ### 1. NYC Airbnb
 - The script cleans and preprocesses NYC Airbnb data, removing invalid entries and filtering key attributes. It then analyzes price distributions, correlations, and host activity, visualizing insights using bar charts, scatter plots, heatmaps, and word clouds. Finally, it explores relationships between price, room type, and availability across different neighborhood groups.
+
+### 2. Titanic
+- The code is a machine learning pipeline designed to predict survival on the Titanic dataset from Kaggle. It begins by loading and exploring the data, followed by preprocessing steps such as handling missing values, encoding categorical variables, and feature selection. The notebook then splits the data into training and testing sets, and trains multiple models including Logistic Regression, Random Forest, and Support Vector Machines (SVM). Model performance is evaluated using accuracy scores and confusion matrices. Finally, predictions are generated on the test dataset for submission to the Kaggle competition.
 
 ---
 
