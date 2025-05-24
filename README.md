@@ -1,3 +1,5 @@
+https://github.com/chanjulee1/Portfolio
+
 # Portfolio Repository
 This repository showcases various projects that demonstrate my skills in software development and problem-solving. Below is an overview of the key projects included:
 
