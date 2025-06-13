@@ -1,146 +1,118 @@
-https://github.com/chanjulee1/Portfolio
+# 포트폴리오 저장소
+👉 [원본 GitHub 페이지 바로가기](https://github.com/chanjulee1/Portfolio)
+이 저장소는 소프트웨어 개발 및 문제 해결 능력을 보여주는 다양한 프로젝트를 포함하고 있습니다. 아래는 주요 프로젝트에 대한 개요입니다:
 
-# Portfolio Repository
-This repository showcases various projects that demonstrate my skills in software development and problem-solving. Below is an overview of the key projects included:
-
-## Table of Contents
-- [C Programming](#c-programming)
-  - [Arithmetic](#1-arithmetic)
-  - [Bit operations](#2-bit-operations)
-  - [Threads (Sleeping Barber)](#3-threadssleeping-barber)
-  - [Shell](#4-shell)
+## 목차
+- [C 프로그래밍](#c-프로그래밍)
+  - [산술 연산](#1-산술-연산)
+  - [비트 연산](#2-비트-연산)
+  - [스레드 (잠자는 이발사)](#3-스레드-잠자는-이발사)
+  - [셸](#4-셸)
   - [TCP](#5-tcp)
-- [Network](#network)
-  - [HTTP Proxy Server](#http-proxy-server)
-  - [UDP ping-pong](#udp-ping-pong)
-- [C++ Multithreading](#c-multithreading)
-  - [Dining Philosophers](#1-dining-philosophers)
-  - [Producer–Consumer](#2-producerconsumer)
-  - [Readers–Writers](#3-readerswriters)
-  - [The Cigarette Smokers](#4-the-cigarette-smokers)
-  - [Santa Claus](#5-santa-claus)
-- [Data Science](#data-science)
+- [네트워크](#네트워크)
+  - [HTTP 프록시 서버](#http-프록시-서버)
+  - [UDP 핑퐁](#udp-핑퐁)
+- [C++ 멀티스레딩](#c-멀티스레딩)
+  - [식사하는 철학자 문제](#1-식사하는-철학자-문제)
+  - [생산자–소비자 문제](#2-생산자소비자-문제)
+  - [독자–작가 문제](#3-독자작가-문제)
+  - [담배 피우는 사람들 문제](#4-담배-피우는-사람들-문제)
+  - [산타클로스 문제](#5-산타클로스-문제)
+- [데이터 사이언스](#데이터-사이언스)
   - [NYC Airbnb](#1-nyc-airbnb)
-  - [Titanic](#2-titanic)
-- [Web Development](#web-development)
+  - [타이타닉](#2-타이타닉)
+- [웹 개발](#웹-개발)
   - [FakeSO](#fakeso)
   - [Guess5](#guess5)
   - [VitalSync](#vitalsync)
-- [Machine Learning](#machine-learning)
-  - [Reinforcement Learning](#1-reinforcement-learning)
-  - [CNN Convolution](#2-cnn-convolution)
-  - [Autoencoder](#3-autoencoder)
+- [기계 학습](#기계-학습)
+  - [강화 학습](#1-강화-학습)
+  - [CNN 합성곱](#2-cnn-합성곱)
+  - [오토인코더](#3-오토인코더)
 
+## C 프로그래밍
 
-## C Programming
-**Various excercies in C**
+**C 언어로 작성된 다양한 실습 예제**
 
-### 1. Arithmetic
-- Various artimetic operations performed in C
+### 1. 산술 연산
+- 다양한 산술 연산을 C로 구현
 
-### 2. Bit operations
-- hw3_matmul.c: Implements matrix multiplication for two predefined matrices. It defines functions for matrix multiplication and printing the result.
-- hw3_struct_union_func.c: Defines a structure for a spiking neuron network (SNN) using a union to store different data types. It includes functions to modify the neuron’s name, number, and common data.
-- hw3_bits.c: Performs bitwise operations on an integer, including setting, clearing, and toggling specific bits, and prints the binary representation of the modified values.
+### 2. 비트 연산
+- `hw3_matmul.c`: 두 개의 행렬에 대한 곱셈을 구현
+- `hw3_struct_union_func.c`: 스파이킹 뉴런 네트워크(SNN)를 구조체와 유니온으로 구현
+- `hw3_bits.c`: 비트 설정, 해제, 토글 및 이진 출력 구현
 
-### 3. Threads(Sleeping Barber)
-- This program simulates a barbershop with one barber and multiple customers using threads. Customers either wait for a haircut or leave if all chairs are occupied. The barber serves waiting customers and closes the shop after all have been handled.
+### 3. 스레드 (잠자는 이발사)
+- 하나의 이발사와 여러 손님이 등장하는 스레드 시뮬레이션
 
-### 4. Shell
-- Implements a simple shell that reads user commands, parses them, and executes them using fork() and execvp(), supporting input/output redirection (<, >) and piping (|).
+### 4. 셸
+- 사용자 입력을 받고, 파싱한 후 명령어 실행 (파이프 및 리디렉션 지원)
 
 ### 5. TCP
-- These files implement a simple client-server echo application using TCP sockets in C. The server.c file handles incoming client connections and echoes messages, while client.c connects to the server and exchanges messages based on user input. The util.c and util.h files provide utility functions for safe I/O operations and error handling used by both the client and server.
+- TCP 기반 에코 클라이언트–서버 프로그램 구현
 
+## 네트워크
 
---- 
+**Java 언어로 작성된 클라이언트–서버 통신 예제**
 
-## Network
-**Code for implemting client-server connections, code in Java**:
+### HTTP 프록시 서버
+- HTTP GET 요청을 웹 서버로 전달하고 응답 반환
 
-**HTTP Proxy Server**:  
-- Listens for client connections and forwards HTTP GET requests to web servers (e.g., `www.google.com`).  
-- Fetches the server's responses and sends the data back to the client.
+### UDP 핑퐁
+- 핑 메시지 전송 및 RTT 측정 기능을 포함한 UDP 기반 통신
 
-  
-**UDP ping-pong**:  
-This is a Java-based UDP ping-pong system:
+## C++ 멀티스레딩
 
- - UDPServer.java implements a server that listens on a port, receives ping messages, and echoes them back. You added code to parse the port from arguments, display pings with a counter, and send replies.
- - Message.java defines a simple data structure holding an IP address, port, and message content.
- - PingClient.java defines a reusable client capable of sending and receiving ping messages using UDP.
- - UDPClient.java extends PingClient to send timed pings, measure round-trip times (RTT), handle timeouts, and print stats.
+**C++로 구현된 고전 동기화 문제**
 
----
+### 1. 식사하는 철학자 문제
+- 세마포어를 사용하여 교착 상태 방지
 
-## C++ Multithreading
-**Codes for common multithreading problems implemented in C++:**  
+### 2. 생산자–소비자 문제
+- 버퍼 상태를 추적하는 세마포어 사용
 
-### 1. Dining Philosophers
-- Uses a single semaphore (`footman`) to limit the number of philosophers who can attempt to pick up chopsticks simultaneously.  
-- Avoids circular wait by ensuring no deadlock occurs.  
+### 3. 독자–작가 문제
+- 작가 우선 순위 동기화 구현
 
-### 2. Producer–Consumer
-- Utilizes three semaphores:  
-  - `emptyCount`: Tracks the number of free slots in the buffer.  
-  - `fullCount`: Tracks the number of filled slots in the buffer.  
-  - `mtx`: Protects the queue from simultaneous access.  
+### 4. 담배 피우는 사람들 문제
+- 재료 선택 및 스레드 동기화
 
-### 3. Readers–Writers
-- Implements a `queue` semaphore (`q`) to control the order of access.  
-- Prioritizes writers when they arrive and locks/unlocks the shared resource following standard logic.  
+### 5. 산타클로스 문제
+- 산타, 순록, 요정 간의 상호작용 시뮬레이션
 
-### 4. The Cigarette Smokers
-- Uses semaphores for the agent and each smoker.  
-- A `table` mutex guards shared variables.  
-- The agent randomly selects two ingredients, and the smoker with the remaining ingredient proceeds.  
-
-### 5. Santa Claus
-- Employs multiple semaphores:  
-  - `santaSem`: Signals Santa when help is needed.  
-  - `reindeerSem` and `elfSem`: Track reindeer and elves waiting for assistance.  
-- Reindeer and elves increment counters protected by mutexes and wait for Santa’s intervention.  
-
----
-
-## Data Science
+## 데이터 사이언스
 
 ### 1. NYC Airbnb
-- The script cleans and preprocesses NYC Airbnb data, removing invalid entries and filtering key attributes. It then analyzes price distributions, correlations, and host activity, visualizing insights using bar charts, scatter plots, heatmaps, and word clouds. Finally, it explores relationships between price, room type, and availability across different neighborhood groups.
+- 데이터 정제, 시각화, 분석 및 인사이트 도출
 
-### 2. Titanic
-- The code is a machine learning pipeline designed to predict survival on the Titanic dataset from Kaggle. It begins by loading and exploring the data, followed by preprocessing steps such as handling missing values, encoding categorical variables, and feature selection. The notebook then splits the data into training and testing sets, and trains multiple models including Logistic Regression, Random Forest, and Support Vector Machines (SVM). Model performance is evaluated using accuracy scores and confusion matrices. Finally, predictions are generated on the test dataset for submission to the Kaggle competition.
+### 2. 타이타닉
+- 머신러닝을 활용한 생존 예측 파이프라인
 
----
+## 웹 개발
 
-## Web Development
-**Code for websites made using MERN stack**
+**MERN 스택을 활용한 웹 프로젝트**
 
 ### FakeSO
-**Mock Stack Overflow**:  
-- A local web program built using the MERN stack (MongoDB, Express.js, React.js, Node.js).  
-- Mimics the functionality of Stack Overflow for educational purposes.  
+- Stack Overflow 기능을 모사한 로컬 웹 앱
 
 ### Guess5
-**Word Guessing Game**:  
-- Developed using the MERN stack for both front-end and back-end implementation.  
-- Features a user-friendly interface and interactive gameplay.  
+- 사용자 인터페이스 기반 단어 추측 게임
 
 ### [VitalSync](https://github.com/chanjulee1/Portfolio/tree/main/Web%20development/VitalSync)
-**Deployed Website**:
-- A deployed website managing a hospital patient's care routines. 
+- 병원 환자 관리 시스템 웹 애플리케이션
+
+## 기계 학습
+
+### 1. 강화 학습
+- MDP 환경 기반으로 Value Iteration, Q-learning, SARSA 구현
+
+### 2. CNN 합성곱
+- NumPy로 구현된 합성곱 신경망
+
+### 3. 오토인코더
+- 다양한 배치 크기에 따른 학습 손실 분석
 
 ---
 
-## Machine Learning
+문의사항이 있거나 도움이 필요하시면 언제든지 연락 주세요!  
 
-### 1. Reinforcement Learning
-- Reinforcement learning environment with a small grid-based Markov Decision Process (MDP), implementing value iteration, Q-learning, and SARSA for policy evaluation. It initializes transition probabilities and rewards, then runs these algorithms to compute optimal policies and prints results for comparison.
-
-### 2. CNN Convolution
-- A simple convolutional neural network (CNN) implementation in NumPy with custom convolution and pooling functions, followed by a forward pass applying three convolutional layers, ReLU activations, and pooling operations. The script processes an input image and saves filtered outputs.
-
-### 3. Autoencoder
-- This script trains an Autoencoder on the MNIST dataset using different batch sizes to analyze their impact on training loss. Training loss is tracked and plotted for different batch sizes.
-
-If you encounter any issues or need assistance, feel free to reach out!
